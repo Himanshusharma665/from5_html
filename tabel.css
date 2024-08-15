@@ -1,11 +1,17 @@
 table{
-     background-color:  yellow;
+
      border-color: black;
+
 }
 
 #hum{
      color:red;
+     background-color: aqua;
 }
 #happy{
      color:blue;
+     background-color: brown;
+}
+#sharma{
+     background-color: azure;
 }
