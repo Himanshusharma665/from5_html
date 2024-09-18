@@ -4,7 +4,7 @@
  }
    body{
         background-color:rgb(226, 204, 224);
-        
+
    }
     .container{
        width:100%;
@@ -12,27 +12,27 @@
         background-color:rgb(240, 227, 238);
           justify-content: center;
          align-items: center;
-     
+
        flex-wrap: wrap;
        padding-left:180px;
        padding-top: 100px;
        padding-right:100px;
        padding-bottom: 100px;
        flex-direction:column;
-   
-       
-       
+
+
+
     }
-     
+
     #main{
-       
+
        width:70%;
        height:auto;
        background-color: white;
        display: flex;
        justify-content: space-between;
        flex-wrap:wrap;
-        padding:25px 40px 25px 26px; 
+        padding:25px 40px 25px 26px;
     }
 
      .left-section img{
@@ -51,37 +51,38 @@
     padding-left:15px;
     padding-top:23 ;
   }
-   
+
   .right-section{
     padding-top:70px;
   }
-    
-  input type{
+
+  input[ type="email"]{
     width: auto;
-    height:80px;
-    font-size: medium;
-    /* padding-left: 8px;
-    margin-bottom:10px; */
-    display:flex; 
-    flex-wrap:wrap;
+    height:20%;
+    font-size: 34px;
+     padding-left: 8px;
+    /* margin-bottom:10px;
+    display:flex;
+    flex-wrap:wrap; */
   }
+
    #forgot{
     font-size: small;
     font-weight:bold
-    
+
    }
-  
+
 
     .right-section p{
        font-size: smaller;
-    
+
     }
      #p1{
        color:blue;
        font-size: small;
 
      }
-      
+
      .b{
        display: flex;
        justify-content: flex-end;
@@ -109,7 +110,7 @@
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
- 
+
    }
    /* #right{
     padding:10px;
@@ -118,12 +119,12 @@
   #text{
     width: auto;
     display:flex;
-    /* word-spacing:100px; */
+
   }
 
-   #text.p{
- padding-left:25px;
- word-spacing: 500px;
-  
- 
+   #text p{
+ padding-right:25px;
+
+
+
    }
