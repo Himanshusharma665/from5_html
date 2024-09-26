@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <style>
+    body{
+        height:100vh;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .container{
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    background:conic-gradient(white,rgb (0,128.255));
+    animation: circle 3s  ease infinite;
+    }
+    
+    .circle{
+        content: '';
+        width:15px;
+        top:0%;
+        left: 45%;
+        position: absolute;
+        height:15px;
+        border-radius: 50%;
+        background-color: rgb(0,128,255);
+        border: 2px;
+    }
+    .container::after{
+        content: '';
+        position:absolute;
+        top:15px;
+        left:15px;
+        right:15px;
+        bottom:15px;
+        border-radius: 50%;
+        background-color: aliceblue;
+    }
+
+    @keyframes circle{
+        0%{
+             rotate:0deg;    
+    }
+    24%{
+            rotate9:0deg;
+}
+50%{
+             rotate:180deg;
+
+}
+75%{
+             rotate:270deg;
+
+}
+100%{
+             rotate:360deg;
+
+}
+    }
+  </style>
+
+
+</head>
+<body>
+    <div class="container">
+    <div class="circle"></div>
+    </div>
+    
+</body>
+</html>
